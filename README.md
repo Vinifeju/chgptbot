@@ -21,6 +21,5 @@
 
 /say - запрос к chatgpt
 
-
-
+![image](https://ibb.co.com/whMsC0B)
 
