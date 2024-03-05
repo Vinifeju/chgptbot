@@ -20,6 +20,3 @@ class ChatGptRequests:
             stream=True,
         )
         return response
-    
-    async def generate_image(self, prompt: str):
-        pass
