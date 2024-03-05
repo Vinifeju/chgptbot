@@ -8,11 +8,14 @@
 
 > pip3 install -r .\requirements.txt
 
-Устанавливаем токен бота в переменную окружения BOT_TOKEN. Можно и в коде, но небезопасно
+Устанавливаем токен бота в переменную окружения BOT_TOKEN. 
+и раскомментируем строку `#BOT_TOKEN = environ.get('BOT_TOKEN')`
+
+Можно и в коде, но небезопасно
 
 **Прокси**
-прокси можем устанавливать в строке `chatgptrequest = ChatGptRequests(proxy={})` в аргументе proxy
-в таком же формате как и в requests {'http': 'http://<host>:<port>'} или socks
+прокси можем устанавливать в строке `python chatgptrequest = ChatGptRequests(proxy={})` в аргументе proxy
+в таком же формате как и в requests: {'http': 'http://<host>:<port>'} или socks
 
 Запускаем main.py
 
