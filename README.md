@@ -17,7 +17,8 @@
 прокси можем устанавливать в строке `chatgptrequest = ChatGptRequests(proxy={})` в аргументе proxy
 в таком же формате как и в requests: {'http': 'http://<host>:<port>'} или socks
 
-Запускаем main.py
+### Запуск
+Запускаем `python main.py`
 
 /say - запрос к chatgpt
 
