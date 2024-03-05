@@ -13,7 +13,7 @@
 
 Можно и в коде, но небезопасно
 
-**Прокси**
+### Прокси
 прокси можем устанавливать в строке `chatgptrequest = ChatGptRequests(proxy={})` в аргументе proxy
 в таком же формате как и в requests: {'http': 'http://<host>:<port>'} или socks
 
